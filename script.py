@@ -17,9 +17,12 @@ for gene in soup.find_all('Entrezgene'):
 
     # note genes that NCBI classifies as discontinued
     try:
-        discont = 'DISCONTINUED'
+        discont = gene.find('Entrezgene_summary').text
+        if (discont):
+            discont = 'DISCONTINUED'
     except Exception as e:
-        discont = None
+        discont = ''
+    print(discont)
     csv_writer.writerow([geneID, geneSymbol, geneDesc, discont])
 
 data.close()
