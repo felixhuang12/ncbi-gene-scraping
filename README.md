@@ -11,4 +11,4 @@ The BeautifulSoup4 and csv modules will need to be imported before use. Afterwar
 Note: this script does not account for "replaced" genes so those will have to be manually converted.
 
 ## Reference for Merging Excel Sheets
-If you would like to merge the two .csv files, visit: https://yourbusiness.azcentral.com/subset-data-excel-8074.html.
+If you would like to merge two Excel sheets converted from .csv files such as a sheet for "replaced" gene info and a sheet created from the data.csv file, visit: https://yourbusiness.azcentral.com/subset-data-excel-8074.html.
