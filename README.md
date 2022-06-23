@@ -10,5 +10,8 @@ The BeautifulSoup4 and csv modules will need to be imported before use. Afterwar
 
 Note: this script does not account for "replaced" genes so those will have to be manually converted.
 
+## Scenario for Raw Reads
+If raw reads are in a .csv file, they can also be plainly converted with the "LOC genes 7.21.21.csv" library. Simply change the path on line 8 of where loc_conv.py is located, and then run ``` python3 loc_conv.py ``` assuming the command is run from the folder ```loc_conv.py``` is in.
+
 ## Reference for Merging Excel Sheets
 If you would like to merge two Excel sheets converted from .csv files such as a sheet for "replaced" gene info and a sheet created from the data.csv file, visit: https://yourbusiness.azcentral.com/subset-data-excel-8074.html.
